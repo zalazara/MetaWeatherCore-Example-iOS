@@ -6,12 +6,22 @@
 //
 
 import UIKit
+import MetaWeatherCore
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        WeatherApi().locationSearch { (response, error) -> Void in
+            if let response = response {
+                print(response)
+            }
+            
+            if let error = error {
+                print(error.localizedDescription)
+            }
+        }
     }
 
 

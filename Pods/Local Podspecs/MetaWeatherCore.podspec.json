@@ -1,0 +1,27 @@
+{
+  "name": "MetaWeatherCore",
+  "version": "0.1.0",
+  "summary": "A short description of MetaWeatherCore.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/zalazara/MetaWeatherCore-iOS.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zalazara": "azalazar@outlook.com.ar"
+  },
+  "source": {
+    "git": "https://github.com/zalazara/MetaWeatherCore-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MetaWeatherCore.xcframework"
+  },
+  "libraries": "c++",
+  "requires_arc": true,
+  "static_framework": true
+}

@@ -1,0 +1,21 @@
+PODS:
+  - MetaWeatherCore (0.1.0)
+
+DEPENDENCIES:
+  - MetaWeatherCore (from `https://github.com/zalazara/MetaWeatherCore-iOS.git`)
+
+EXTERNAL SOURCES:
+  MetaWeatherCore:
+    :git: https://github.com/zalazara/MetaWeatherCore-iOS.git
+
+CHECKOUT OPTIONS:
+  MetaWeatherCore:
+    :commit: 1dfd989ab2c6c6e12d458750b12e924fbf385c4e
+    :git: https://github.com/zalazara/MetaWeatherCore-iOS.git
+
+SPEC CHECKSUMS:
+  MetaWeatherCore: c20b534be990bc18ecdfe6ba15d7b7755553f1d9
+
+PODFILE CHECKSUM: d3eb08a958dbfc47697000cfb45f80286774d323
+
+COCOAPODS: 1.11.3

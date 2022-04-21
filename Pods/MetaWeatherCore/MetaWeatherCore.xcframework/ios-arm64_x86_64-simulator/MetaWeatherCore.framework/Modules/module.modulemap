@@ -1,0 +1,6 @@
+framework module MetaWeatherCore {
+    umbrella header "MetaWeatherCore.h"
+
+    export *
+    module * { export * }
+}
