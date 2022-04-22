@@ -176,6 +176,7 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/MetaWeatherCore/MetaWeatherCore.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then

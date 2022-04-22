@@ -7,6 +7,7 @@ target 'MetaWeatherCore_Example' do
 
   # Pods for MetaWeatherCore_Example
   pod 'MetaWeatherCore' , :git => 'https://github.com/zalazara/MetaWeatherCore-iOS.git'
+  pod 'CocoaDebug', :configurations => ['Debug']
 
   target 'MetaWeatherCore_ExampleTests' do
     inherit! :search_paths

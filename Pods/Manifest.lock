@@ -1,8 +1,14 @@
 PODS:
+  - CocoaDebug (1.7.2)
   - MetaWeatherCore (0.1.0)
 
 DEPENDENCIES:
+  - CocoaDebug
   - MetaWeatherCore (from `https://github.com/zalazara/MetaWeatherCore-iOS.git`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaDebug
 
 EXTERNAL SOURCES:
   MetaWeatherCore:
@@ -10,12 +16,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MetaWeatherCore:
-    :commit: 1dfd989ab2c6c6e12d458750b12e924fbf385c4e
+    :commit: f726f9341012b09ec3d22abbbaa120bbf0d7e632
     :git: https://github.com/zalazara/MetaWeatherCore-iOS.git
 
 SPEC CHECKSUMS:
+  CocoaDebug: 61cf93ada6ce8f3407507dc01f9b874d91ac1d5c
   MetaWeatherCore: c20b534be990bc18ecdfe6ba15d7b7755553f1d9
 
-PODFILE CHECKSUM: d3eb08a958dbfc47697000cfb45f80286774d323
+PODFILE CHECKSUM: 3786c1c459916cebf5b29f5ebf433e953cc6021d
 
 COCOAPODS: 1.11.3

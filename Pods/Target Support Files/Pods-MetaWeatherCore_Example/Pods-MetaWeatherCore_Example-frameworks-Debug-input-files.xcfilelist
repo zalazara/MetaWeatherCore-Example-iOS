@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-MetaWeatherCore_Example/Pods-MetaWeatherCore_Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/MetaWeatherCore/MetaWeatherCore.framework/MetaWeatherCore
